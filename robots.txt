@@ -1,0 +1,36 @@
+# WeddingClickz robots.txt
+# https://weddingclickz.com
+
+User-agent: *
+Allow: /
+Allow: /blog.html
+Allow: /blog/
+Allow: /sitemap.xml
+Disallow: /api/
+Disallow: /admin/
+
+# ── AI crawlers: allow for GEO (Generative Engine Optimisation) ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# ── Primary search engines ──
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://weddingclickz.com/sitemap.xml
